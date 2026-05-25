@@ -187,8 +187,12 @@ export default function EngainHero() {
                         -translate-x-1/2 -translate-y-1/2
                         w-[12%] aspect-square
                         rounded-full'
-            > 
-              <img src='/play-button.png' alt='' className='w-full h-full cursor-pointer'/>
+            >
+              <img
+                src='/play-button.png'
+                alt=''
+                className='w-full h-full cursor-pointer'
+              />
             </button>
           </div>
         </div>
