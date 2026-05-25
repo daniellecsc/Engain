@@ -92,7 +92,7 @@ export default function EngainHero() {
           {/* LEFT */}
           <div className='hero-left'>
             {/* Trust badge */}
-            <div className='trust-badge'>
+            <div className='trust-badge hidden xl:inline-flex'>
               <div className='w-6 h-6'>
                 <img src='/trustpilot.png' alt='' />
               </div>
@@ -104,17 +104,25 @@ export default function EngainHero() {
             </div>
 
             {/* Headline */}
-            <h1 className='hero-headline'>
+            <h1 className='hero-headline text-center md:text-start'>
               Get new customers &amp;
               <br />
               build LLM visibility with the
             </h1>
 
             {/* Pill */}
-            <div className='hero-pill-wrap'>
-              <div className='hero-pill'>
+            <div className='hero-pill-wrap w-full md: w-auto'>
+              <div className='hero-pill w-full xl:w-auto text-center xl:text-start'>
                 <span>#1 Reddit Marketing Software</span>
               </div>
+            </div>
+
+            {/* Thumbnail — mobile only, before features */}
+            <div className='mobile-thumbnail relative w-full md:hidden'>
+              <img src='/thumbnail.png' alt='' className='w-full' />
+              <button className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[12%] aspect-square rounded-full'>
+                <img src='/play-button.png' alt='' className='w-full h-full cursor-pointer' />
+              </button>
             </div>
 
             {/* Features */}
@@ -179,9 +187,9 @@ export default function EngainHero() {
             </div>
           </div>
 
-          {/* RIGHT */}
-          <div className='relative'>
-            <img src='/thumbnail.png' alt='' />
+          {/* RIGHT — desktop only */}
+          <div className='relative w-full min-w-0 flex-1 hidden md:flex'>
+            <img src='/thumbnail.png' alt='' className='w-full' />
             <button
               className='absolute top-1/2 left-1/2
                         -translate-x-1/2 -translate-y-1/2

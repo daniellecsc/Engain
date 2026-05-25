@@ -226,8 +226,82 @@ body {
   width: max-content;
 }
 
+/* ── Responsive ── */
+@media (max-width: 1024px) {
+  .hero {
+    gap: 40px;
+  }
+
+  .hero-headline,
+  .hero-pill span {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .hero {
+    flex-direction: column;
+    padding: 32px 0 40px;
+    gap: 32px;
+  }
+
+  .hero-left {
+    width: 100%;
+  }
+
+  .hero-right {
+    display: none !important;
+  }
+
+  .trust-badge {
+    margin-bottom: 20px;
+  }
+
+  .hero-headline {
+    font-size: 24px !important;
+    margin-bottom: 2px !important;
+  }
+
+  .hero-pill-wrap {
+    margin-bottom: 20px;
+  }
+
+  .mobile-thumbnail {
+    margin-bottom: 20px;
+  }
+
+  .features {
+    margin-bottom: 20px;
+  }
+
+  .hero-pill span {
+    font-size: 24px !important;
+  }
+
+  .feature-item span {
+    font-size: 13px;
+  }
+
+  .trust-badge span {
+    font-size: 12px;
+  }
+
+  .hero-ctas {
+    width: 100%;
+  }
+
+  .hero-ctas .btn-orange-nav,
+  .hero-ctas .btn-outline {
+    flex: 1;
+    justify-content: center;
+  }
+}
+
 .trust-badge {
-  display: inline-flex;
   align-items: center;
   gap: 8px;
   border: 2px solid rgba(255, 255, 255, 0.5);
@@ -382,7 +456,6 @@ body {
 }
 
 .hero-right {
-  background: #1a1a1a;
   flex: 1 1 0;
   min-width: 0;
   position: relative;
@@ -402,8 +475,4 @@ body {
   right: 0;
   top: 0;
   position: absolute;
-}
-
-.icon {
-  bottom: 0;
 }
