@@ -13,12 +13,10 @@ export default function EngainHero() {
         <img src='/bg2left.png' alt='' />
       </div>
 
-      
       {/* Background right */}
       <div className='bg-blocks-right'>
         <img src='/bg3right.png' alt='' />
       </div>
-
 
       <div className='hero-content'>
         {/* ── NAVBAR ── */}
@@ -135,9 +133,9 @@ export default function EngainHero() {
                 <div className='feature-outline'>
                   <div className='w-3 h-3'>
                     <img
-                      src="/accounts-dp.png"
-                      alt=""
-                      className="absolute bottom-0 left-1/2 -translate-x-1/2"
+                      src='/accounts-dp.png'
+                      alt=''
+                      className='absolute bottom-0 left-1/2 -translate-x-1/2'
                     />
                   </div>
                 </div>
@@ -185,10 +183,10 @@ export default function EngainHero() {
           <div className='relative'>
             <img src='/thumbnail.png' alt='' />
             <button
-              className="absolute top-1/2 left-1/2
+              className='absolute top-1/2 left-1/2
                         -translate-x-1/2 -translate-y-1/2
                         w-[8%] aspect-square
-                        rounded-full bg-[var(--orange)]"
+                        rounded-full bg-[var(--orange)]'
             />
           </div>
         </div>
