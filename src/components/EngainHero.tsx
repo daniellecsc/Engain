@@ -1,5 +1,3 @@
-import EngainLogo from './EngainLogo';
-
 export default function EngainHero() {
   return (
     <div className='hero-root'>
@@ -84,7 +82,7 @@ export default function EngainHero() {
                 Get a Demo
               </button>
               <button className='btn-outline btn-nav-open flex md:hidden aspect-square w-9 items-center justify-center bg-white rounded-lg border border-[#e0e0e0] cursor-pointer'>
-                <img src='/lightning.png' alt='' className='w-4 h-4'/>
+                <img src='/menu.png' alt='' className='w-4 h-4' />
               </button>
             </div>
           </nav>
@@ -124,7 +122,11 @@ export default function EngainHero() {
             <div className='mobile-thumbnail relative w-full md:hidden'>
               <img src='/thumbnail.png' alt='' className='w-full' />
               <button className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[12%] aspect-square rounded-full'>
-                <img src='/play-button.png' alt='' className='w-full h-full cursor-pointer' />
+                <img
+                  src='/play-button.png'
+                  alt=''
+                  className='w-full h-full cursor-pointer'
+                />
               </button>
             </div>
 
