@@ -301,7 +301,11 @@ body {
   }
 
   .btn-get-started {
-    display: none
+    display: none 
+  }
+  
+  .btn-nav-open {
+    padding: 0;
   }
 }
 

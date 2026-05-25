@@ -83,7 +83,7 @@ export default function EngainHero() {
                 </div>
                 Get a Demo
               </button>
-              <button className='flex md:hidden aspect-square w-9 items-center justify-center bg-white rounded-lg border border-[#e0e0e0] cursor-pointer'>
+              <button className='btn-outline btn-nav-open flex md:hidden aspect-square w-9 items-center justify-center bg-white rounded-lg border border-[#e0e0e0] cursor-pointer'>
                 <img src='/lightning.png' alt='' className='w-4 h-4'/>
               </button>
             </div>
