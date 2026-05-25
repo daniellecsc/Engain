@@ -309,6 +309,16 @@ body {
   }
 }
 
+.btn-nav-open {
+  display: flex;
+}
+
+@media (min-width: 768px) {
+  .btn-nav-open {
+    display: none;
+  }
+}
+
 .trust-badge {
   align-items: center;
   gap: 8px;
