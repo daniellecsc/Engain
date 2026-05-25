@@ -71,7 +71,7 @@ export default function EngainHero() {
 
             {/* Buttons */}
             <div className='nav-btns'>
-              <button className='btn-outline'>
+              <button className='btn-outline btn-get-started'>
                 <div className='w-2.5 h-2.5'>
                   <img src='/lightning.png' alt='' />
                 </div>
@@ -82,6 +82,9 @@ export default function EngainHero() {
                   <img src='/calendar.png' alt='' />
                 </div>
                 Get a Demo
+              </button>
+              <button className='flex md:hidden aspect-square w-9 items-center justify-center bg-white rounded-lg border border-[#e0e0e0] cursor-pointer'>
+                <img src='/lightning.png' alt='' className='w-4 h-4'/>
               </button>
             </div>
           </nav>

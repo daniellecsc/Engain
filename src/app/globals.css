@@ -299,6 +299,10 @@ body {
     flex: 1;
     justify-content: center;
   }
+
+  .btn-get-started {
+    display: none
+  }
 }
 
 .trust-badge {
@@ -476,3 +480,8 @@ body {
   top: 0;
   position: absolute;
 }
+
+.icon {
+  bottom: 0; 
+}
+
