@@ -33,7 +33,7 @@ body {
   position: relative;
   overflow: hidden;
   background-color: #ff5a36;
-  background-image: url("/bg.png");
+  background-image: url('/bg.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -385,18 +385,17 @@ body {
 }
 
 .bg-blocks-left {
-  left: 0; 
+  left: 0;
   top: 0;
   position: absolute;
 }
 
 .bg-blocks-right {
-  right: 0; 
+  right: 0;
   top: 0;
   position: absolute;
 }
 
 .icon {
-  bottom: 0; 
+  bottom: 0;
 }
-
