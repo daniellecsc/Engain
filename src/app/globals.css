@@ -28,10 +28,14 @@ body {
 /* ── Engain hero ── */
 .hero-root {
   font-family: var(--font-inter), sans-serif;
-  background: #ff5a36;
   min-height: 100vh;
   position: relative;
   overflow: hidden;
+  background-color: #ff5a36;
+  background-image: url("/bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .bg-grid {
@@ -296,8 +300,8 @@ body {
   color: rgb(0, 0, 0, 0.6);
   font-size: 13px;
   font-weight: 600;
-  padding: 7px 16px;
-  border-radius: 10px;
+  padding: 7px 7px;
+  border-radius: 8px;
   white-space: nowrap;
 }
 

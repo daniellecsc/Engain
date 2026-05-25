@@ -4,10 +4,7 @@ export default function EngainHero() {
   return (
     <div className='hero-root'>
       {/* Background layers */}
-      <div className='bg-grid' />
-      <div className='bg-circle-top' />
-      <div className='bg-circle-bl' />
-      <div className='bg-circle-tr' />
+      <div></div>
 
       <div className='hero-content'>
         {/* ── NAVBAR ── */}
@@ -123,7 +120,11 @@ export default function EngainHero() {
               <li className='feature-item'>
                 <div className='feature-outline'>
                   <div className='w-3 h-3'>
-                    <img src='/accounts-dp.png' alt='' />
+                    <img
+                      src='/accounts-dp.png'
+                      alt=''
+                      className='w-full h-full'
+                    />
                   </div>
                 </div>
                 <span>
