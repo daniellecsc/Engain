@@ -1,5 +1,4 @@
-@import 'tailwindcss';
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
 
 :root {
   --background: #ffffff;
@@ -9,8 +8,7 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-inter);
 }
 
 *,
@@ -22,14 +20,14 @@
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-inter), sans-serif;
   background: #ff5a36;
   color: var(--foreground);
 }
 
 /* ── Engain hero ── */
 .hero-root {
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-inter), sans-serif;
   background: #ff5a36;
   min-height: 100vh;
   position: relative;
@@ -391,7 +389,7 @@ body {
 }
 
 .db {
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-inter), sans-serif;
   display: flex;
   flex-direction: column;
   height: 100%;
