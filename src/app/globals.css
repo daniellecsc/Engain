@@ -3,6 +3,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --orange: #ff5a36;
 }
 
 @theme inline {
@@ -21,7 +22,7 @@
 
 body {
   font-family: var(--font-inter), sans-serif;
-  background: #ff5a36;
+  background: var(--orange);
   color: var(--foreground);
 }
 
@@ -294,15 +295,19 @@ body {
 .feature-outline {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 6px;
   border: 1.5px solid #e0e0e0;
   background: white;
   color: rgb(0, 0, 0, 0.6);
   font-size: 13px;
   font-weight: 600;
-  padding: 7px 7px;
   border-radius: 8px;
   white-space: nowrap;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
 }
 
 .feature-item {
@@ -378,3 +383,20 @@ body {
   margin: 0;
   line-height: 0;
 }
+
+.bg-blocks-left {
+  left: 0; 
+  top: 0;
+  position: absolute;
+}
+
+.bg-blocks-right {
+  right: 0; 
+  top: 0;
+  position: absolute;
+}
+
+.icon {
+  bottom: 0; 
+}
+
